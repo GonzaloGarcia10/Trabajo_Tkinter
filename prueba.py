@@ -3,7 +3,7 @@ import tkinter.messagebox
 
 ventana = tkinter.Tk() # Crea la ventana principal
 ventana.geometry("800x580") #Ancho = 500 px, Alto = 300 px
-ventana.title("Mi aplicación Tkinter") #Cambiar el título de la ventana.
+ventana.title("Mi Tkinter") #Cambiar el título de la ventana.
 
 tkinter.Label(ventana,text="Hola").pack() #Muestra texto o imágenes
 # tkinter.Button(ventana,text="Click",command=funcionQueHaceAlgo).pack() Boton interactivo
@@ -12,7 +12,7 @@ tkinter.Text(ventana).pack() # Área de texto multilínea
 tkinter.Frame(ventana).pack() # Contenedor para agrupar widgets
 
 def saludar():
-    print("¡Hola, mundo!")
+    print("¡Hola!")
 
 tkinter.Button(ventana, text="Saludar", command=saludar).pack()
 
