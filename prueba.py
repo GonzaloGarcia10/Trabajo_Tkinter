@@ -26,9 +26,9 @@ def mostrar_coordenadas(event):
 
 ventana.bind("<Motion>", mostrar_coordenadas) # Detecta movimiento del ratón
 
-tkinter.messagebox.showinfo("Mensaje de información")
-tkinter.messagebox.showwarning("Mensaje de advertencia")
-tkinter.messagebox.showerror("Mensaje de error")
+tkinter.messagebox.showinfo("Mensaje de info")
+tkinter.messagebox.showwarning("Mensaje de adver")
+tkinter.messagebox.showerror("Mensaje de err")
 
 ventana.mainloop()
 
